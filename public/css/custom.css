@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif!important;
+	 font-weight: 400;
+	 line-height: 1.7;
+	 letter-spacing: 1px;
+	 color: #333333!important;
+ }
+ 
+ :root {
+   --color-font: #333;
+   --color-primary: #e76517;
+   --color-secondary: #005389;
+   --color-link: #e76517;
+   --color-link-hover: #005389;
+   --color-gradient-start: #e76517;
+   --color-gradient-stop: #005389;
+   --color-img-holder: #e76517;
+ }
+ 
+ h1, .h1,
+ h2, .h2,
+ h3, .h3 {
+	font-family: 'Montserrat', sans-serif!important;
+   font-weight: 700;
+   line-height: 1.5;
+	 letter-spacing: 1px;
+   color: #333333;
+ }
+
+ h4, .h4,
+ h5, .h5,
+ h6, .h6 {
+	font-family: 'Montserrat', sans-serif!important;
+   font-weight: 500;
+   line-height: 1.7;
+	 letter-spacing: 1px;
+   color: #333333;
+ }
+
+.mardsec1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.padsec1 {
+	padding-top: 150px;
+	padding-bottom: 0px;
+}
+
+.judsec1 {
+	padding-top: 30px;
+	font-size: 120px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.backsec1 {
+	background-image: url('<?= base_url()?>assets/img/Group-2023.jpg'); 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+select,input {
+	outline: 0 !important;
+	border-width: 0 0 0.2px !important;
+	border-radius: 0 !important;
+	border-color:#968a8a !important;
+	box-shadow: none !important;
+}
+select:focus, input:focus {
+	box-shadow: none !important;
+	outline: 0 !important;
+	border-color: blue !important;
+}
+form .error, #error-check-term{
+	color: red;
+}
+.iti{
+	width: 100% !important;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	min-width: 40%;
+	border-radius: 5px;
+}
+
+.col-xs-2{
+    background:#00f;
+    color:#FFF;
+}
+.col-half-offset{
+    margin-left:4.166666667%
+}
+
+/* ========= ==========================KHUSUS HP & TABLET ====================================*/ 
+
+@media screen and (max-width: 600px) {
+	.padsec1 {
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+
+	.mardsec1 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.judsec1 {
+		padding-top: 0px;
+		font-size: 40px;
+		color: #fff;
+		padding-right: 30px;
+		padding-left: 30px;
+		font-weight: 600;
+	}
+}
