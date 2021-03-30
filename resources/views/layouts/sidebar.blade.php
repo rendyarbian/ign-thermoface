@@ -1,8 +1,8 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-light-danger elevation-4">
+<aside class="main-sidebar sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="{{route('home')}}" class="brand-link">
-        <img src="{{ asset('images/ign-logo-top.png') }}" alt="IGN Logo" style="opacity: .8">
+    <a href="{{route('home')}}" class="brand-link" style="padding-left: 20px;">
+        <img src="{{ asset('images/thermoface-logo.png') }}" style="height: 50px; width:200px;" alt="IGN Logo" style="opacity: .8">
     </a>
 
     <!-- Sidebar -->
