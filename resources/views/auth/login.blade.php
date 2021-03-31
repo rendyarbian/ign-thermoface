@@ -29,7 +29,7 @@
 
         .bg {
             /* The image used */
-            background-image: url("{{asset('images/bg-reg.jpg')}}");
+            /* background-image: url("{{asset('images/bg-reg.jpg')}}"); */
 
             /* Center and scale the image nicely */
             background-position: center;
@@ -46,7 +46,7 @@
 <body class="hold-transition login-page bg" style="margin-top: -100px;">
     <div class="login-box">
         <div class="login-logo mb-4">
-            <img src="{{ asset('images/reg-logo-ign.png') }}" style="width: 250px;" />
+            <img src="{{ asset('images/thermoface-logo.png') }}" style="width: 250px;" />
         </div>
         <!-- /.login-logo -->
         <div class="card">

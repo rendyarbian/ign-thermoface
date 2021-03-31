@@ -30,7 +30,7 @@
 
         .bg {
             /* The image used */
-            background-image: url("{{asset('images/bg-reg.jpg')}}");
+            /* background-image: url("{{asset('images/bg-reg.jpg')}}"); */
 
             /* Center and scale the image nicely */
             background-position: center;
